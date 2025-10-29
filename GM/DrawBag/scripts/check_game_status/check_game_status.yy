@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"check_game_status",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"check_game_status",
+  "parent":{
+    "name":"game",
+    "path":"folders/Scripts/game.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,14 @@
+
+
+image_speed = 0;
+state = STATE.idle;
+previousState = noone;
+
+moveSpeed = 3;
+status[STATUS.LIFE] = 1;
+status[STATUS.AGILITY] = 1;
+status[STATUS.INT] = 1;
+status[STATUS.LUCKY] = 1;
+status[STATUS.STAMINA] = 1;
+
+
