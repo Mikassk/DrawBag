@@ -1,0 +1,1 @@
+instance_create_transition(1,noone);

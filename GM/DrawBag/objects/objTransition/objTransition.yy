@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"objControl",
+  "%Name":"objTransition",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objControl",
+  "name":"objTransition",
   "overriddenProperties":[],
   "parent":{
-    "name":"Control",
-    "path":"folders/Objects/Control.yy",
+    "name":"Interface",
+    "path":"folders/Objects/HUD/Interface.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objPopup",
+    "path":"objects/objPopup/objPopup.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprTransition",
+    "path":"sprites/sprTransition/sprTransition.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

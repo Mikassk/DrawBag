@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"objControl",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"objWall",
+  "eventList":[],
   "managed":true,
-  "name":"objControl",
+  "name":"objWall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Control",
-    "path":"folders/Objects/Control.yy",
+    "name":"HUD",
+    "path":"folders/Objects/HUD.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprWall",
+    "path":"sprites/sprWall/sprWall.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
