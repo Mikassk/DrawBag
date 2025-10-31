@@ -1,4 +1,4 @@
 if(room_exists(room_next(room)))
 {
-	instance_create_transition()	
+	room_goto(room_next(room));
 }

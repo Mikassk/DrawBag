@@ -45,6 +45,14 @@ enum STATUS{
 	
 }
 
+enum keyboard{
+	up = vk_up,
+	down = vk_down,
+	left = vk_left,
+	right = vk_right,
+	atk = ord("Z")
+}
+
 
 
 #endregion Variable Player

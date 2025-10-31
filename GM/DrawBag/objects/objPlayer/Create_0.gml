@@ -11,4 +11,13 @@ status[STATUS.INT] = 1;
 status[STATUS.LUCKY] = 1;
 status[STATUS.STAMINA] = 1;
 
+keyup = noone;
+keydown = noone;
+keyleft = noone;
+keyright = noone;
+keyatk = noone;
+
+
+
+
 
