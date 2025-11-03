@@ -37,7 +37,7 @@ enum STATE{
 }
 
 enum STATUS{
-	LIFE,
+	STRENGTH,
 	LUCKY,
 	STAMINA,
 	INT,
