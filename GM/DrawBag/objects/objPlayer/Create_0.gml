@@ -5,7 +5,7 @@ state = STATE.idle;
 previousState = noone;
 
 moveSpeed = 3;
-status[STATUS.LIFE] = 1;
+status[STATUS.STAMINA] = 1;
 status[STATUS.AGILITY] = 1;
 status[STATUS.INT] = 1;
 status[STATUS.LUCKY] = 1;
@@ -16,6 +16,11 @@ keydown = noone;
 keyleft = noone;
 keyright = noone;
 keyatk = noone;
+
+movex = 0;
+movey = 0;
+hsp = 0;
+vsp = 0;
 
 
 

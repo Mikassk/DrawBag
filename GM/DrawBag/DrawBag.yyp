@@ -59,6 +59,7 @@
     {"id":{"name":"create_transition","path":"scripts/create_transition/create_transition.yy",},},
     {"id":{"name":"draw_weapon","path":"scripts/draw_weapon/draw_weapon.yy",},},
     {"id":{"name":"ItemClasses","path":"scripts/ItemClasses/ItemClasses.yy",},},
+    {"id":{"name":"itemTypes","path":"scripts/itemTypes/itemTypes.yy",},},
     {"id":{"name":"bkgMap","path":"sprites/bkgMap/bkgMap.yy",},},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},},
     {"id":{"name":"sprTransition","path":"sprites/sprTransition/sprTransition.yy",},},

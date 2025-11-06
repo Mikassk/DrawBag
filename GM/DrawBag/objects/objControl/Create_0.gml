@@ -53,6 +53,8 @@ enum keyboard{
 	atk = ord("Z")
 }
 
+globalvar INVENTORY;
+INVENTORY = ds_list_create();
 
 
 #endregion Variable Player
